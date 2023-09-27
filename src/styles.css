@@ -1,0 +1,59 @@
+@import "normalize.css";
+@import "@blueprintjs/core/lib/css/blueprint.css";
+@import "@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  height: 100vh;
+}
+.card {
+  width: 250px;
+  margin: 5px;
+}
+table {
+  background-color: #191919;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0px auto;
+}
+th {
+  color: rgb(142, 41, 44);
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 3px solid rgb(28, 33, 39);
+  border-collapse: collapse;
+}
+td {
+  color: white;
+}
+.Movie-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#search-bar {
+  margin: 5%;
+  width: 90%;
+}
+p {
+  margin: 2px;
+}
+.ideal-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none;
+}
+.nav-header {
+  padding: 0% 10%;
+}
